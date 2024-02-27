@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url(images/hero_bg.jpg.webp);
+    background-size: cover;
+    height: 120vh;
+    background-position: center;
+}
+.navbar-brand{
+    font-size: 29px;
+    font-weight: 700;
+}
+.navbar-brand span{
+    color: rgb(238, 190, 117);
+}
+#navbarSupportedContent li{
+    font-size: 14px;
+}
+.s1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.s1 span{
+    color: #b49c73  ;
+}
+p{
+    font-size: 16px;
+    font-weight: normal;
+}
+p span{
+    color: #b49c73  ;
+    font-size: 17px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+}
+.free{
+    font-size: 13px;
+    background-color: #b49c73;
+    padding: 14px 23px;
+    border-radius: 29px;
+    display: inline-block;
+    font-weight: normal;
+    color: white;
+    letter-spacing: 1px;
+}
+.free:hover{
+    background-color: #e7b45d;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+#page1st{
+    background-color: #37373f;
+    background-size: cover;
+    height: 164vh;
+}
+.s2 h1{
+    color: bisque;
+    font-size: 39px;
+}
+.s2 span{
+    color: #b49c73;
+    font-weight: 700;
+}
+.para1{
+    color: gainsboro;
+}
+.para2{
+    color: gainsboro;
+}
+.learnmore{
+    font-size: 13px;
+    background-color: #b49c73;
+    padding: 13px 23px;
+    border-radius: 26px;
+    display: inline-block;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    display: inline-block;
+}
+.learnmore:hover{
+    background-color: #e7b45d;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.icon1 i{
+    font-size: 35px;
+    background-color: rgb(147, 146, 146);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 100%;
+}
+
+.icon1 i:hover{
+ background-color: rgb(65, 64, 64);
+ transition: all 1s ease-in-out;
+ cursor: pointer;
+}
+.four{
+    color: #a4967d;
+    cursor: pointer;
+    margin-top: 10px;
+    position: absolute;
+}
+.i1{
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    margin-top: -20px;
+}
